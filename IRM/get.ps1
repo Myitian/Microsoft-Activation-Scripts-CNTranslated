@@ -11,10 +11,10 @@ $rand = Get-Random -Maximum 1000
 $isAdmin = [bool]([Security.Principal.WindowsIdentity]::GetCurrent().Groups -match 'S-1-5-32-544')
 $FilePath = if ($isAdmin) { "$env:SystemRoot\Temp\MAS_$rand.cmd" } else { "$env:TEMP\MAS_$rand.cmd" }
 
-try {
-    $response = Invoke-WebRequest -Uri $DownloadURL1CN -UseBasicParsing
-}
-catch {
+# try {
+#     $response = Invoke-WebRequest -Uri $DownloadURL1CN -UseBasicParsing
+# }
+# catch {
     "获取中文脚本失败，使用备用地址"
     try {
         $response = Invoke-WebRequest -Uri $DownloadURL2CN -UseBasicParsing
@@ -29,7 +29,7 @@ catch {
             $response = Invoke-WebRequest -Uri $DownloadURL2EN -UseBasicParsing
         }
     }
-}
+# }
 
 $ScriptArgs = "$args "
 $prefix = "@REM $rand `r`n"
