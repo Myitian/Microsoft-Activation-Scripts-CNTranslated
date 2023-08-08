@@ -14,7 +14,7 @@
 
 -   在 Windows 8.1/10/11 上，右键单击 Windows 开始菜单，然后选择 PowerShell 或终端（不是 CMD）。
 -   复制粘贴以下代码并按 Enter\
-    `irm https://massgrave.dev/get | iex`
+    `irm https://bit.ly/MAS-CNT_get-gb2312 | iex`
 -   您将看到激活选项，然后按照屏幕上的说明进行操作。
 -   就这样。
 
