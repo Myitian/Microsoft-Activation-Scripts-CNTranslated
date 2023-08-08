@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 # Enable TLSv1.2 for compatibility with older clients
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL1CN = '' # 'https://gitlab.com/massgrave/microsoft-activation-scripts/-/raw/master/MAS/All-In-One-Version/MAS_AIO.cmd'
+$DownloadURL1CN = 'https://gitlab.com/miaoyitian233/Microsoft-Activation-Scripts-CNTranslated/-/raw/master/MAS/All-In-One-Version/MAS_AIO_GB2312.cmd'
 $DownloadURL2CN = 'https://cdn.jsdelivr.net/gh/Myitian/Microsoft-Activation-Scripts-CNTranslated@master/MAS/All-In-One-Version/MAS_AIO_GB2312.cmd'
 $DownloadURL3CN = 'https://raw.githubusercontent.com/Myitian/Microsoft-Activation-Scripts-CNTranslated/master/MAS/All-In-One-Version/MAS_AIO_GB2312.cmd'
 $DownloadURL1EN = 'https://gitlab.com/massgrave/microsoft-activation-scripts/-/raw/master/MAS/All-In-One-Version/MAS_AIO.cmd'
