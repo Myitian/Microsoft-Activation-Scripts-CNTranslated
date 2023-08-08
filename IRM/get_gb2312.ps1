@@ -47,7 +47,7 @@ $ScriptArgs = "$args "
 $prefix = "@REM $rand `r`n"
 $content = $prefix + $response.Content
 
-[System.IO.File]::WriteAllText($FilePath, $content, [System.Text.Encoding]::Default)
+[System.IO.File]::WriteAllText($FilePath, $content, [System.Text.Encoding]::GetEncoding(0))
 
 Start-Process $FilePath $ScriptArgs -Wait
 
