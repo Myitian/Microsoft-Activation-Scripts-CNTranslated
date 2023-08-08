@@ -25,8 +25,13 @@ catch {
             $response = Invoke-WebRequest -Uri $DownloadURL1EN -UseBasicParsing
         }
         catch {
-            "获取英文脚本失败，使用备用地址"
-            $response = Invoke-WebRequest -Uri $DownloadURL2EN -UseBasicParsing
+            try {
+                "获取英文脚本失败，使用备用地址"
+                $response = Invoke-WebRequest -Uri $DownloadURL2EN -UseBasicParsing
+            }
+            catch {
+                "获取脚本失败"
+            }
         }
     }
 }
