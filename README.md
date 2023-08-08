@@ -1,10 +1,10 @@
-<p align="center"><img src="https://github.com/KomashiFX/KomashiFX/blob/main/ReadMeSaves/1689385067225.png?raw=true" width="500">
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/massgravel/mas-docs/main/logo.png" alt="MAS Logo" height="128"></p>
 
 </p>
 <h1 align="center">Microsoft 激活脚本 (MAS)</h1>
 
-<p align="center">使用 HWID / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，重点是开源代码和较少的防病毒检测。</p><br>
+<p align="center">使用 HWID / KMS38 / Online KMS 激活方法的 Windows 和 Office 激活器，重点是开源代码和较少的防病毒检测。</p>
+<hr>
 
 原项目：[https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
@@ -36,17 +36,24 @@
 <hr>
 以下内容为原作者信息
 
-<p align="center"><a href="https://massgrave.dev/troubleshoot.html">疑难解答/帮助（英文页面）</a> |
-<a href="https://massgrave.dev/genuine-installation-media.html">下载正版 Windows 和 Office（英文页面）</a> |
-<a href="https://massgrave.dev">主页（英文页面）</a></p>
 
-<p align="center">无需注册即可在 <img src="https://api.iconify.design/mdi:discord.svg?color=%233a54cd"> <a href="https://discord.gg/gjJEfq7ux8" target="_blank">Discord</a> 上或通过 <img src="https://api.iconify.design/logos:telegram.svg?color=%233a54cd"> <a href="https://t.me/Microsoft_Activation_Scripts" target="_blank">Telegram</a> 与我们聊天。</p>
+### [疑难解答/帮助（英文页面）](https://massgrave.dev/troubleshoot.html)
+### [下载正版 Windows 和 Office（英文页面）](https://massgrave.dev/genuine-installation-media.html)
+### 主页（英文页面） - https://massgrave.dev
 </br>
 
-<p align="center"><a href="https://twitter.com/massgravel"><img src="https://img.shields.io/twitter/follow/massgravel"></a></p>
+[![1.1]][1]
+[![1.2]][2]
+[![1.3]][3]
+
+[1.1]: https://lookimg.com/images/2023/03/21/QTvjcD.png (无需注册即可与我们聊天)
+[1.2]: https://lookimg.com/images/2023/03/21/QTvLyd.png (与我们聊天)
+[1.3]: https://lookimg.com/images/2023/03/21/QTvXBJ.png (在推特上关注)
+
+[1]: https://discord.gg/gjJEfq7ux8
+[2]: https://t.me/Microsoft_Activation_Scripts
+[3]: https://twitter.com/massgravel
 
 ---
 
 用爱制作❤️
-
-
